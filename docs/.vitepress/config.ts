@@ -18,31 +18,18 @@ const vitepressSidebarOptions = [
 ];
 
 export default defineConfigWithTheme<ThemeConfig>({
-  title: "VitePress Open17",
+  title: "我的个人网站",
   lang: "zh-CN",
-  description: "A beautiful & simple blog theme of vitepress",
+  description: "我的个人博客与作品展示",
   markdown: {
     math: true,
   },
   sitemap: {
-    hostname: "https://vitepress.open17.vip",
+    hostname: "https://yourwebsite.com",
   },
   head: [
     ["link", { rel: "icon", href: "/logo.png" }],
-    [
-      "script",
-      {},
-      `
-      var _hmt = _hmt || [];
-      (function() {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?0a05ed98f94a5486639ae0f97c7b6fff";
-        var s = document.getElementsByTagName("script")[0]; 
-        s.parentNode.insertBefore(hm, s);
-      })();
-    `,
-    ],
-    ["meta", { name: "keywords", content: "vitepress, theme, blog, open17" }],
+    ["meta", { name: "keywords", content: "个人网站, 博客, 作品集" }],
   ],
   themeConfig: {
     sidebar: generateSidebar(vitepressSidebarOptions),
@@ -58,23 +45,22 @@ export default defineConfigWithTheme<ThemeConfig>({
       },
     },
     editLink: {
-      pattern:
-        "https://github.com/open17/vitepress-theme-open17/edit/master/docs/:path",
-      text: "帮我优化文章~"
+      pattern: "",
+      text: ""
     },
     feed: {
-      baseUrl: "https://vitepress.open17.vip",
-      copyright: "Copyright © 2023-present open17",
-      image: "https://cdn.jsdelivr.net/gh/open17/Pic/img/202405071726176.png",
+      baseUrl: "https://yourwebsite.com",
+      copyright: "Copyright © 2024-present",
+      image: "/logo.png",
     },
     blog: {
       tagPageLink: "/page/tags",
       bgImage: { dark: "/bg_dark.jpg" },
       direct: "lft",
       user: {
-        name: "Open17",
+        name: "您的名字",
         avatar: "/ava.jpg",
-        describe: "A beautiful & simple blog theme of vitepress",
+        describe: "个人简介：Web开发者 | 摄影爱好者 | 终身学习者",
       },
     },
     home: {
@@ -82,45 +68,29 @@ export default defineConfigWithTheme<ThemeConfig>({
       postsPerPage: 5,
     },
     comment: {
-      use: true,
-      repo: "open17/vitepress-theme-open17",
-      repoId: "R_kgDOLkFVUg",
-      category: "Announcements",
-      categoryId: "DIC_kwDOLkFVUs4ChFZx",
-      mapping: "pathname",
-      strict: "0",
-      reactionsEnabled: "1",
-      emitMetadata: "0",
-      inputPosition: "top",
-      lang: "en",
+      use: false,
     },
     logo: {
       dark: "/logo.png",
       light: "/logo_light.png",
     },
     lastUpdated: {
-      text: "Updated at",
+      text: "更新于",
       formatOptions: {
         dateStyle: "full",
         timeStyle: "medium",
       },
     },
     nav: [
-      { text: "Home", link: "/" },
-      { text: "Guide", link: "/guide/0-intro/" },
-      {
-        text: "Demo",
-        items: [
-          { text: "Blog", link: "/page/blog" },
-          { text: "Tags", link: "/page/tags" },
-          { text: "Archive", link: " /page/archive" },
-        ],
-      },
+      { text: "首页", link: "/" },
+      { text: "博客", link: "/page/blog" },
+      { text: "项目", link: "/guide/projects/" },
+      { text: "个人简介", link: "/page/about" },
     ],
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/open17/vitepress-theme-open17/",
+        link: "https://github.com/yourusername",
       },
     ],
   },

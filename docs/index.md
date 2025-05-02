@@ -6,40 +6,40 @@ bgImage:
   dark: '/bg_dark.jpg'
 
 hero:
-  name: "Vitepress Open17"
-  text: "简单美观的博客主题"
-  tagline: 将 Markdown 变成美观的博客，只需几分钟
+  name: "我的个人网站"
+  text: "记录生活与思考的地方"
+  tagline: 分享我的项目、文章和生活点滴
   image:
-    dark: "/vitepress-logo.png"
-    light: "/vitepress-logo.png"
-    alt: open17
+    dark: "/logo.png"
+    light: "/logo_light.png"
+    alt: 个人标志
   actions:
     - theme: brand
-      text: 主题文档
-      link: /guide/0-intro/
-    - theme: brand
-      text: Live Demo
+      text: 我的博客
       link: /page/blog
+    - theme: brand
+      text: 个人简介
+      link: /page/about
     - theme: alt
-      text: Vitepress文档
-      link: https://vitepress.dev/
+      text: 项目展示
+      link: /guide/projects/
 
 features:
-  - title: 快速上手
+  - title: 技术博客
     icon: 🛠️
-    details: 兼容vitepress默认配置与功能,无需额外修改,快速迁移你的vitpress站点
-    link: "/guide/0-intro/0-start.html"
-    linkText: "点击跳转"
-  - title: 博客能力增强
+    details: 分享我的技术见解、学习心得和解决方案
+    link: "/page/blog"
+    linkText: "浏览文章"
+  - title: 个人项目
     icon: 📑
-    details: 基于vitpress,同时支持常见的博客功能与需求
-    link: "/guide/0-intro/1-use.html"
-    linkText: "点击跳转"
-  - title: 多样化配置
+    details: 展示我开发的项目和作品集
+    link: "/guide/projects/"
+    linkText: "查看项目"
+  - title: 生活随笔
     icon: 🌼
-    details: 自定义背景,主题色,RSS,自定义组件...
-    link: "/guide/1-config/0-home.html"
-    linkText: "点击跳转"
+    details: 记录生活中的灵感、思考和美好瞬间
+    link: "/page/blog"
+    linkText: "阅读随笔"
 ---
 
 <br>
