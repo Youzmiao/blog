@@ -6,7 +6,7 @@ sidebar: auto
 head:
   - - meta
     - name: sidebar
-      content: true
+      content: "true"
 ---
 
 # 照片相册拖拽布局项目
