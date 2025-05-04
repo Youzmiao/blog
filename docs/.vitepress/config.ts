@@ -1,6 +1,7 @@
 import type { ThemeConfig } from "vitepress-theme-open17/config";
 import { genFeed } from "vitepress-theme-open17/genFeed";
 import { defineConfigWithTheme } from "vitepress";
+import { sidebar } from "./sidebar";
 
 import { generateSidebar } from "vitepress-sidebar";
 
@@ -17,8 +18,15 @@ const vitepressSidebarOptions = [
   },
 ];
 
+// 合并自动生成的侧边栏和自定义侧边栏
+const generatedSidebar = generateSidebar(vitepressSidebarOptions);
+const combinedSidebar = {
+  ...generatedSidebar,
+  ...sidebar
+};
+
 export default defineConfigWithTheme<ThemeConfig>({
-  title: "我的个人网站",
+  title: "柚子の猫",
   lang: "zh-CN",
   description: "我的个人博客与作品展示",
   markdown: {
@@ -32,7 +40,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     ["meta", { name: "keywords", content: "个人网站, 博客, 作品集" }],
   ],
   themeConfig: {
-    sidebar: generateSidebar(vitepressSidebarOptions),
+    sidebar: combinedSidebar,
     search: {
       provider: "local",
       options: {
@@ -60,7 +68,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       user: {
         name: "您的名字",
         avatar: "/ava.jpg",
-        describe: "个人简介：Web开发者 | 摄影爱好者 | 终身学习者",
+        describe: "个人简介：Web开发者 | 运动爱好者 | 终身学习者",
       },
     },
     home: {
@@ -90,7 +98,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/yourusername",
+        link: "https://github.com/Youzmiao",
       },
     ],
   },

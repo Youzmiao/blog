@@ -6,7 +6,7 @@ bgImage:
   dark: '/bg_dark.jpg'
 
 hero:
-  name: "我的个人网站"
+  name: "柚子の猫"
   text: "记录生活与思考的地方"
   tagline: 分享我的项目、文章和生活点滴
   image:

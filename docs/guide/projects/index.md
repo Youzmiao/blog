@@ -8,6 +8,25 @@ layout: doc
 
 这里展示了我的一些个人项目和作品。每个项目都代表了我在不同领域的技术探索和创新尝试。
 
+::: info 项目导航
+- [照片相册拖拽布局](/guide/projects/photo-gallery-drag-layout)
+:::
+
+## 照片相册拖拽布局
+
+**技术栈**: React 19, TypeScript, Vite, CSS3
+
+一个基于React和TypeScript构建的交互式Web应用，允许用户通过直观的拖放操作来自由排列照片卡片。
+
+- **功能特点**:
+  - 自由拖拽：用户可以自由拖动任意照片卡片到页面的任何位置
+  - 视觉反馈：拖拽过程中提供平滑的过渡动画和视觉反馈，包括旋转和缩放效果
+  - 持久定位：卡片位置会保持在用户放置的位置
+  - 高质量图像展示：支持高分辨率图像，并采用优化的图像显示方式
+  - 响应式设计：适应不同屏幕尺寸的设备
+
+- **项目链接**: [在线演示](https://drag-and-drop-layout.vercel.app/) | [GitHub仓库](https://github.com/Youzmiao/Drag-and-drop-layout) | [详细介绍](/guide/projects/photo-gallery-drag-layout)
+
 ## 个人博客网站
 
 **技术栈**: VitePress, Vue.js, TypeScript

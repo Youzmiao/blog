@@ -16,17 +16,19 @@ layout: doc
 
 ## 教育背景
 
-- **计算机科学学士学位** - XX大学 (20XX-20XX)
+- **数据科学与大数据技术学士学位** - 河北经贸大学 (2021-2025)
 
-## 工作经历
+## 开发经历
 
-- **高级前端开发工程师** - XX科技有限公司 (20XX至今)
-  - 负责公司核心产品的前端架构设计与实现
-  - 优化前端性能，提升用户体验
+ **多模态内容智能分析系统** - Web前端页面开发 
 
-- **Web开发工程师** - XX互联网公司 (20XX-20XX)
-  - 参与多个项目的开发与维护
-  - 负责前端组件库的开发与文档编写
+
+  - 项目整体Web前端架构设计与开发，选用 Vue.js 、Tailwind CSS、Vue Router等技术栈。
+  - 用户登录注册、数据可视化展示、核心交互界面的UI设计实现与前端逻辑开发。
+  - 响应式布局，确保在桌面和移动端的良好用户体验。
+  - 使用Node.js进行API接口开发与对接、数据联调与测试。
+
+
 
 ## 个人项目
 
@@ -34,8 +36,8 @@ layout: doc
 
 ## 联系方式
 
-- **Email**: your.email@example.com
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
+- **Email**: s2713035936@gmail.com
+- **GitHub**: [github.com/Youzmiao](https://github.com/Youzmiao)
 
 ---
 
