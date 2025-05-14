@@ -10,13 +10,13 @@ layout: doc
 
 ## 技能与专长
 
-- **前端开发**：HTML, CSS, JavaScript, Vue.js, React
-- **后端开发**：Node.js, Python
+- **前端开发**：HTML, CSS, JavaScript, Vue.js, React, Tailiwnd Css
+- **后端开发**：Node.js
 - **其他技能**：数据分析, UI/UX设计基础
 
 ## 教育背景
 
-- **数据科学与大数据技术学士学位** - 河北经贸大学 (2021-2025)
+- **数据科学与大数据技术** - 河北经贸大学 (2021-2025)
 
 ## 开发经历
 

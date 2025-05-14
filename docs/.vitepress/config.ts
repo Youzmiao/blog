@@ -66,7 +66,7 @@ export default defineConfigWithTheme<ThemeConfig>({
       bgImage: { dark: "/bg_dark.jpg" },
       direct: "lft",
       user: {
-        name: "您的名字",
+        name: "柚子の猫",
         avatar: "/ava.jpg",
         describe: "个人简介：Web开发者 | 运动爱好者 | 终身学习者",
       },

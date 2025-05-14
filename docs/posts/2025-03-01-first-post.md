@@ -4,10 +4,9 @@ description: 这是我个人网站的第一篇文章
 categories:
   - 随笔
 tags:
-  - 个人网站
-  - 博客
+  - Vue
   - VitePress
-date: 2025-05-01
+date: 2025-03-01
 image: /bg.jpg
 head:
   - - meta
